@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-  <UsingTask TaskName="GenerateNativeDllNameTask" AssemblyFile="..\Lib\CustomBuildTasks\CustomBuildTasks.dll" />
+  <UsingTask TaskName="GenerateNativeDllNameTask" AssemblyFile="..\tools\CustomBuildTasks\CustomBuildTasks.dll" />
 
   <PropertyGroup>
     <LibGit2SharpPath Condition="'$(MSBuildThisFileDirectory)' == ''">.</LibGit2SharpPath>
